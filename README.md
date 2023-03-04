@@ -1,6 +1,8 @@
-# Amplitude Normalized Data Model for September 2021
+# Amplitude Normalized Data Model for September 2021 with Azure Databricks & Delta Lake
 
 This requires the creation of an Amplitude Normalized data model for the month of September 2021 using Spark, preferably PySpark. The main transformation involves selecting a subset of columns, renaming them and casting their data types based on a given mapping.
+
+![Alt text](Media/d.png)
 
 ## Transformation
 The following mapping is used to select, rename and cast the columns:
