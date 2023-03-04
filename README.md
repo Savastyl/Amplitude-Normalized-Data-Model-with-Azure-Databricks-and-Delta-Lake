@@ -1,12 +1,12 @@
 # Amplitude Normalized Data Model for September 2021
 
-This technical test requires the creation of an Amplitude Normalized data model for the month of September 2021 using Spark, preferably PySpark. The main transformation involves selecting a subset of columns, renaming them and casting their data types based on a given mapping.
+This requires the creation of an Amplitude Normalized data model for the month of September 2021 using Spark, preferably PySpark. The main transformation involves selecting a subset of columns, renaming them and casting their data types based on a given mapping.
 
 ## Transformation
 The following mapping is used to select, rename and cast the columns:
 ![Alt text](Media/Screenshot%202023-03-03%20212945.png)
 
-Implementation
+## Implementation
 The implementation is done using the following steps:
 
 Load the raw data for September 2021 from a Parquet file using Spark.
